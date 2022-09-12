@@ -8,4 +8,11 @@
     <string name="rick_sanchez">Rick Sanchez</string>
     <string name="image_of_morty"><![CDATA[Image of Morty<]]></string>
     <string name="image_of_rick">image of Rick</string>
+
+
+    <string-array name="characters">
+    <item>Morty Smith</item>
+    <item>Rick Sanchez</item>
+
+
 </resources>
