@@ -1,1 +1,2 @@
-# Laboratorio 8 de programación de plataformas móviles UVG 2022
+# Laboratorio 8 
+Programación de Plataformas Móviles UVG 2022
