@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/aleaz/Documents/UVG/Semestre IV/Plataformas Moviles/Lab9/app/src/main/res/layout/activity_main.xml" value="0.35625" />
+        <entry key="..\:/Users/aleaz/Documents/UVG/Semestre IV/Plataformas Moviles/Lab9/app/src/main/res/layout/fragment_characters.xml" value="0.35625" />
+        <entry key="..\:/Users/aleaz/Documents/UVG/Semestre IV/Plataformas Moviles/Lab9/app/src/main/res/layout/fragment_list_of_characters.xml" value="0.3390625" />
+        <entry key="..\:/Users/aleaz/Documents/UVG/Semestre IV/Plataformas Moviles/Lab9/app/src/main/res/layout/fragment_list_of_characters_list.xml" value="0.3390625" />
+        <entry key="..\:/Users/aleaz/Documents/UVG/Semestre IV/Plataformas Moviles/Lab9/app/src/main/res/layout/item_recycler_place.xml" value="0.35520833333333335" />
+        <entry key="..\:/Users/aleaz/Documents/UVG/Semestre IV/Plataformas Moviles/Lab9PM/app/src/main/res/layout/activity_main.xml" value="0.3489583333333333" />
+        <entry key="..\:/Users/aleaz/Documents/UVG/Semestre IV/Plataformas Moviles/Lab9PM/app/src/main/res/layout/fragment_character_fullview.xml" value="0.35625" />
+        <entry key="..\:/Users/aleaz/Documents/UVG/Semestre IV/Plataformas Moviles/Lab9PM/app/src/main/res/layout/fragment_list_of_characters.xml" value="0.35625" />
+        <entry key="..\:/Users/aleaz/Documents/UVG/Semestre IV/Plataformas Moviles/Lab9PM/app/src/main/res/layout/item_recycler_place.xml" value="0.20180722891566266" />
+        <entry key="..\:/Users/aleaz/Documents/UVG/Semestre IV/Plataformas Moviles/Lab9PM/app/src/main/res/menu/menu_toolbar.xml" value="0.35520833333333335" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

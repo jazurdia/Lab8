@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+
+    app:startDestination="@+id/fragmentList">
+
+    <fragment
+        android:id="@+id/fragmentList"
+        android:name="com.example.lab9.FragmentListOfCharacters"
+        android:label="Lista de personajes"
+        tools:layout="@layout/fragment_list_of_characters" >
+
+        <action
+            android:id="@+id/action_fragmentList_to_character_Details_Fragment"
+            app:destination="@+id/character_Details_Fragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/character_Details_Fragment"
+        android:name="com.example.lab9.CharactersFragmentFullView"
+        android:label="Detalle de personajes"
+        tools:layout="@layout/fragment_character_fullview" >
+
+        <action
+            android:id="@+id/action_character_Details_Fragment_to_fragmentList"
+            app:destination="@id/fragmentList" />
+
+        <argument
+            android:name="image"
+            app:argType="string" />
+
+        <argument
+            android:name="name"
+            app:argType="string" />
+        <argument android:name="specie"
+            app:argType="string" />
+        <argument
+            android:name="status"
+            app:argType="string" />
+        <argument
+            android:name="gender"
+            app:argType="string" />
+
+
+    </fragment>
+</navigation>
