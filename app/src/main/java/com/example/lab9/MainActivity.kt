@@ -10,10 +10,6 @@ import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupWithNavController
 import com.google.android.material.appbar.MaterialToolbar
 
-/**
- * Main activity for the app. Inflates main activity layout which has a [MaterialToolbar] for the app
- */
-
 class MainActivity : AppCompatActivity() {
 
     private lateinit var bar: MaterialToolbar

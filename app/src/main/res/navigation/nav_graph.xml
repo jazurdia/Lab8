@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
 
-    app:startDestination="@+id/fragmentList">
+    app:startDestination="@id/login_fragment_ofNav">
 
     <fragment
         android:id="@+id/fragmentList"
@@ -43,7 +43,16 @@
         <argument
             android:name="gender"
             app:argType="string" />
+    </fragment>
 
+    <fragment
+        android:id="@+id/login_fragment_ofNav"
+        android:name="com.example.lab9.fragments.Login"
+        android:label="Login"
+        tools:layout="@layout/fragment_login" >
 
+        <action
+            android:id="@+id/action_login_to_character_Details_Fragment"
+            app:destination="@id/character_Details_Fragment" />
     </fragment>
 </navigation>
