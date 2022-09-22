@@ -1,4 +1,4 @@
-package com.example.lab9
+package com.example.lab9.fragments
 
 import android.os.Bundle
 import android.view.View
@@ -6,6 +6,7 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.lab9.R
 import com.example.lab9.adapters.PlaceAdapter
 import com.example.lab9.database.Character
 import com.example.lab9.database.RickAndMortyDB

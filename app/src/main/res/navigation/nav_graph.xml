@@ -8,7 +8,7 @@
 
     <fragment
         android:id="@+id/fragmentList"
-        android:name="com.example.lab9.FragmentListOfCharacters"
+        android:name="com.example.lab9.fragments.FragmentListOfCharacters"
         android:label="Lista de personajes"
         tools:layout="@layout/fragment_list_of_characters" >
 
@@ -20,7 +20,7 @@
 
     <fragment
         android:id="@+id/character_Details_Fragment"
-        android:name="com.example.lab9.CharactersFragmentFullView"
+        android:name="com.example.lab9.fragments.CharactersFragmentFullView"
         android:label="Detalle de personajes"
         tools:layout="@layout/fragment_character_fullview" >
 

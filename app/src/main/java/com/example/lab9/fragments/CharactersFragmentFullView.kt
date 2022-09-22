@@ -1,11 +1,9 @@
-package com.example.lab9
+package com.example.lab9.fragments
 
 import android.annotation.SuppressLint
 import android.os.Bundle
 import androidx.fragment.app.Fragment
-import android.view.LayoutInflater
 import android.view.View
-import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.navigation.fragment.navArgs
@@ -13,7 +11,6 @@ import coil.load
 import coil.request.CachePolicy
 import coil.transform.CircleCropTransformation
 import com.example.lab9.R
-import com.example.lab9.adapters.PlaceAdapter
 
 
 class CharactersFragmentFullView : Fragment(R.layout.fragment_character_fullview){
