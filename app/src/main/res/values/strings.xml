@@ -5,4 +5,7 @@
     <string name="ordenarAZ">Ordenar A - Z</string>
     <string name="ordenarZA">Ordenar Z - A</string>
     <string name="correo_personal">azu21242@uvg.edu.gt</string>
+    <string name="iniciar_sesion">Iniciar Sesion</string>
+    <string name="correo">correo</string>
+    <string name="contrase_a">contraseña</string>
 </resources>

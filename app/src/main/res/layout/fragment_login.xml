@@ -27,9 +27,10 @@
         app:layout_constraintTop_toBottomOf="@+id/logoRickYMorty">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/correoInput2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="correo" />
+            android:hint="@string/correo" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -42,22 +43,15 @@
         android:layout_marginTop="15dp">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/contrasenaInput2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="contraseña"
+            android:hint="@string/contrase_a"
             />
 
     </com.google.android.material.textfield.TextInputLayout>
 
-    <Button
-        android:id="@+id/boton_iniciar_sesion"
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
-        android:text="Iniciar Sesion"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/contrasenaInput" />
+
 
     <TextView
         android:id="@+id/correo_para_loginFragment"
@@ -69,6 +63,18 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/boton_iniciar_sesion"
         android:layout_marginTop="30dp" />
+
+    <Button
+        android:id="@+id/boton_iniciar_sesion"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/iniciar_sesion"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/contrasenaInput"
+        />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
