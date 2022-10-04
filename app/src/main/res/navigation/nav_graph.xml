@@ -47,7 +47,7 @@
 
     <fragment
         android:id="@+id/login_fragment_ofNav"
-        android:name="com.example.lab9.fragments.Login"
+        android:name="com.example.lab9.fragments.LoginFragment"
         android:label="Login"
         tools:layout="@layout/fragment_login" >
 
