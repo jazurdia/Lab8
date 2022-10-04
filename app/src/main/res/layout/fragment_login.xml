@@ -10,13 +10,14 @@
         android:id="@+id/logoRickYMorty"
         android:layout_width="300dp"
         android:layout_height="200dp"
-        android:layout_marginTop="108dp"
+        android:layout_marginTop="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/" />
-        tools:src="@tools:sample/avatars" />
+
+        app:srcCompat="@mipmap/ic_launcher_foreground" />
+
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/correoInput"
